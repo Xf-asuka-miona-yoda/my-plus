@@ -1,37 +1,15 @@
 <template>
-  <el-tooltip
-    v-if="tip"
-    :content="tip"
-    :placement="placement"
-    v-bind="tipProps"
-  >
-    <el-button v-bind="$attrs" class="t-button-tip" @click="handleClick">
-      <slot />
-    </el-button>
-  </el-tooltip>
-  <el-button v-else v-bind="$attrs" @click="handleClick">
+  <el-button v-bind="$attrs" @click="handleClick">
     <slot />
   </el-button>
 </template>
 
-<script setup lang="ts" name="TButton">
+<script setup lang="ts" name="JButton">
 import { ref } from 'vue'
 const props = defineProps({
   time: {
     type: Number,
     default: 1000,
-  },
-  tip: {
-    type: String,
-    default: '',
-  },
-  placement: {
-    type: String,
-    default: 'top',
-  },
-  tipProps: {
-    type: Object,
-    default: () => ({}),
   },
 })
 // 抛出事件

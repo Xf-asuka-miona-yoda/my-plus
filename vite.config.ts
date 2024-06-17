@@ -80,7 +80,7 @@ export default defineConfig({
       // 请确保外部化那些你的库中不需要的依赖
       external: f === 'iife' ? ['vue'] : ['vue', '@vueuse/core'],
       output: {
-        name: 'TuiPlus',
+        name: 'JiangnanPlus',
         /*
          output.format:
          • amd – 异步模块加载，适用于 RequireJS 等模块加载器
@@ -103,10 +103,10 @@ export default defineConfig({
       entry: resolve(__dirname, 'packages/index.ts'),
       formats: f === 'iife' ? ['iife'] : ['es', 'umd'],
       // entry: './packages/index.ts',
-      name: 'TuiPlus',
+      name: 'JiangnanPlus',
       // formats: ['es', 'cjs'],
       // formats: ['es', 'umd', 'cjs'],
-      fileName: 't-ui-plus',
+      fileName: 'jiangnan-plus',
     },
     // cssCodeSplit: true, // 启用/禁用 CSS 代码拆分。当启用时，在异步 chunk 中导入的 CSS 将内联到异步 chunk 本身，并在其被加载时一并获取。如果禁用，整个项目中的所有 CSS 将被提取到一个 CSS 文件中。
     // cssMinify: 'esbuild', // 默认与 build.minify 一致，允许用户覆盖 CSS 最小化压缩的配置，而不是使用默认的 build.minify

@@ -126,15 +126,6 @@
   background: var(--prism-line-highlight-background);
 }
 
-[class*='language-']:before {
-  position: absolute;
-  top: 0.4em;
-  right: 0.8em;
-  z-index: 2;
-  opacity: var(--prism-marker-opacity);
-  font-size: var(--prism-marker-font-size);
-  color: var(--prism-marker-color);
-}
 
 [class~='language-html']:before,
 [class~='language-markup']:before {

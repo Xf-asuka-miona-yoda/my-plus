@@ -89,9 +89,7 @@ onBeforeMount(() => {
       animation-delay: -0.5s;
     }
   }
-  :deep(.t_layout_page) {
-    padding: 0;
-  }
+  
 
   .t_module_form_demo {
     background-color: var(--el-bg-color-page);
