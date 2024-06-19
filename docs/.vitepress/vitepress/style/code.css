@@ -127,7 +127,7 @@
 }
 
 
-[class~='language-html']:before,
+/* [class~='language-html']:before,
 [class~='language-markup']:before {
   content: 'html';
 }
@@ -224,7 +224,7 @@
 
 span[class~='language-css']:before {
   content: '';
-}
+} */
 
 :root {
   --el-fill-color-light: #f5f7fa;

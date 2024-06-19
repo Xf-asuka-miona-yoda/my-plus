@@ -26,7 +26,7 @@ lang: zh-CN
 ## 常见页面布局
 
 <style lang="scss">
-@use '../../examples/container/common-layout.scss';
+@use '../examples/container/common-layout.scss';
 </style>
 
 :::demo
@@ -79,66 +79,3 @@ container/example
 
 :::
 
-## Container API
-
-### Container Attributes
-
-| 属性名       | 说明       | 类型                                   | 默认值                                                        |
-| --------- | -------- | ------------------------------------ | ---------------------------------------------------------- |
-| direction | 子元素的排列方向 | ^[enum]`'horizontal' \| 'vertical'` | 子元素中有 `el-header` 或 `el-footer` 时为 vertical，否则为 horizontal |
-
-### Container 插槽
-
-| 插槽名     | 说明      | 子标签                                        |
-| ------- | ------- | ------------------------------------------ |
-| default | 自定义默认内容 | Container / Header / Aside / Main / Footer |
-
-## Header API
-
-### Header Attributes
-
-| 属性名    | 说明   | 类型        | 默认值  |
-| ------ | ---- | --------- | ---- |
-| height | 顶栏高度 | ^[string] | 60px |
-
-### Header Slots
-
-| 插槽名     | 说明      |
-| ------- | ------- |
-| default | 自定义默认内容 |
-
-## Aside API
-
-### Aside Attributes
-
-| 属性名   | 说明    | 类型        | 默认值   |
-| ----- | ----- | --------- | ----- |
-| width | 侧边栏宽度 | ^[string] | 300px |
-
-### Aside Slots
-
-| 插槽名     | 说明      |
-| ------- | ------- |
-| default | 自定义默认内容 |
-
-## Main API
-
-### Main Slots
-
-| 插槽名     | 说明      |
-| ------- | ------- |
-| default | 自定义默认内容 |
-
-## Footer API
-
-### Footer Attributes
-
-| 属性名    | 说明   | 类型        | 默认值  |
-| ------ | ---- | --------- | ---- |
-| height | 底栏高度 | ^[string] | 60px |
-
-### Footer Slots
-
-| 插槽名     | 说明      |
-| ------- | ------- |
-| default | 自定义默认内容 |

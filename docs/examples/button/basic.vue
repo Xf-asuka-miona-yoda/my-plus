@@ -46,3 +46,8 @@ import {
   Star,
 } from '@element-plus/icons-vue'
 </script>
+<style lang="scss">
+.mb-4 {
+  margin-bottom: 15px;
+}
+</style>

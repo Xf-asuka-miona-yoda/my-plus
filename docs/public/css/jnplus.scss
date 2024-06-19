@@ -1,0 +1,29 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #ae0b2a,
+    ),
+    'success': (
+      'base': #007f1d,
+    ),
+    'warning': (
+      'base': #f36c01,
+    ),
+    'danger': (
+      'base': #df3232,
+    ),
+    'error': (
+      'base': #df3232,
+    ),
+    'info': (
+      'base': #8022ff,
+    )
+  ),
+//   $button: (
+//     'text-color': red
+//   )
+);
+
+// 如果只是按需导入，则可以忽略以下内容。
+// 如果你想导入所有样式:
+@use "element-plus/theme-chalk/src/index.scss" as *;

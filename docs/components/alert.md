@@ -75,30 +75,3 @@ alert/icon-description
 
 :::
 
-## Alert API
-
-### 属性
-
-| 名称          | 说明        | 类型                                                      | 默认值   |
-| ----------- | --------- | ------------------------------------------------------- | ----- |
-| title       | Alert 标题。 | ^[string]                                               | —     |
-| type        | Alert 类型。 | ^[enum]`'success' \| 'warning' \| 'info' \| 'error'` | info  |
-| description | 描述性文本     | ^[string]                                               | —     |
-| closable    | 是否可以关闭    | ^[boolean]                                              | true  |
-| center      | 文字是否居中    | ^[boolean]                                              | false |
-| close-text  | 自定义关闭按钮文本 | ^[string]                                               | —     |
-| show-icon   | 是否显示类型图标  | ^[boolean]                                              | false |
-| effect      | 主题样式      | ^[enum]`'light' \| 'dark'`                             | light |
-
-### Events
-
-| 名称    | 描述              | 类型                                          |
-| ----- | --------------- | ------------------------------------------- |
-| close | 关闭 Alert 时触发的事件 | ^[Function]`(event: MouseEvent) => void` |
-
-### Slots
-
-| 名称      | 描述         |
-| ------- | ---------- |
-| default | Alert 内容描述 |
-| title   | 标题的内容      |

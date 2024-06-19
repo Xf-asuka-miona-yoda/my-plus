@@ -37,6 +37,11 @@ onBeforeMount(() => {
 </script>
 
 <style lang="scss" scoped>
+.example-component {
+  padding: 1.5rem;
+  margin: 0.5px;
+  background-color: #ffffff;
+}
 // loading动画
 @keyframes lds-ripple {
   0% {
@@ -71,7 +76,7 @@ onBeforeMount(() => {
 .example-component {
   // min-height: 86px;
   // padding: 1.5rem;
-  background-color: var(--el-bg-color-page);
+  // background-color: var(--el-bg-color-page);
   &--spin {
     width: 36px;
     height: 36px;

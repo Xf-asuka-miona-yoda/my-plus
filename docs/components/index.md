@@ -27,6 +27,8 @@ app.use(TuiPlus)
 app.mount('#app')
 ```
 
+<a href="/css/jnplus.scss" download target="_blank">element-plus自定义主题文件下载</a>
+
 ### T-ui-plus组件 Volar 类型提示
 
 ```js

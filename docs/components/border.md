@@ -26,13 +26,3 @@ border/border
 border/radius
 
 :::
-
-## 阴影
-
-我们提供了以下几种投影样式，以供选择。
-
-:::demo
-
-border/shadow
-
-:::
