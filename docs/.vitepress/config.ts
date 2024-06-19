@@ -28,7 +28,6 @@ export default defineConfig({
           text: 'Basic 基础组件',
           items: [
             { text: 'Button 按钮', link: '/components/button.md' },
-            { text: 'Border 边框', link: '/components/border.md' },
             { text: 'Container 布局容器', link: '/components/container.md' },
             { text: 'Layout 布局', link: '/components/layout.md' },
             { text: 'Text 文本', link: '/components/text.md' },
