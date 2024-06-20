@@ -89,34 +89,3 @@ tree-select/lazy
 
 :::
 
-## API
-
-### Attributes
-
-由于这个组件是`el-tree`和`el-select`的结合体，他们的原始属性未被更改，故不在此重复。请跳转查看原组件的相应文档。
-
-| 属性                                      | 方法                            | 事件                                  | 插槽                                 |
-| --------------------------------------- | ----------------------------- | ----------------------------------- | ---------------------------------- |
-| [tree](./tree.md#attributes)            | [tree](./tree.md#method)      | [tree](./tree.md#events)            | [tree](./tree.md#slots)            |
-| [select](./select.md#select-attributes) | [select](./select.md#methods) | [select](./select.md#select-events) | [select](./select.md#select-slots) |
-
-#### Own Attributes
-
-| 属性名                 | 详情                              | 类型                       | 默认值 |
-| ------------------- | ------------------------------- | ------------------------ | --- |
-| cacheData ^(2.2.26) | 懒加载节点的缓存数据，结构与数据相同，用于获取未加载数据的标签 | ^[object]`CacheOption[]` | []  |
-
-## 类型声明
-
-<details>
-  <summary>显示类型声明</summary>
-
-```ts
-type CacheOption = {
-  value: string | number | boolean | object
-  currentLabel: string | number
-  isDisabled: boolean
-}
-```
-
-</details>
