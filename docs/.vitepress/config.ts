@@ -52,6 +52,8 @@ export default defineConfig({
             { text: 'Switch 开关', link: '/components/switch.md'},
             { text: 'TimePicker 时间选择器', link: '/components/time-picker.md'},
             { text: 'TimeSelect 时间选择', link: '/components/time-select.md'},
+            { text: 'Transfer 穿梭框', link: '/components/transfer.md'},
+            { text: 'TreeSelect 树形选择', link: '/components/tree-select.md'},
             // { text: '地图坐标选择组件', link: '/components/TMap/base.md' },
           ],
         },
@@ -59,6 +61,8 @@ export default defineConfig({
           text: 'Data 数据展示',
           items: [
             { text: 'Avatar 头像', link: '/components/avatar.md' },
+            { text: 'Descriptions 描述列表', link: '/components/descriptions.md'},
+            { text: 'Pagination 分页', link: '/components/pagination.md'},
             // { text: '地图坐标选择组件', link: '/components/TMap/base.md' },
           ],
         },
