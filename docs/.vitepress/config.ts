@@ -73,6 +73,10 @@ export default defineConfig({
           text: 'Navigation 导航',
           items: [
             { text: 'Affix 固钉', link: '/components/affix.md' },
+            { text: 'Backtop 回到顶部', link: '/components/backtop.md' },
+            { text: 'Dropdown 下拉菜单', link: '/components/dropdown.md' },
+            { text: 'Menu 菜单', link: '/components/menu.md' },
+            { text: 'Tabs 标签页', link: '/components/tabs.md' },
             // { text: '地图坐标选择组件', link: '/components/TMap/base.md' },
           ],
         },
@@ -80,6 +84,11 @@ export default defineConfig({
           text: 'Feedback 反馈组件',
           items: [
             { text: 'Alert 提示', link: '/components/alert.md' },
+            { text: 'Dialog 对话框', link: '/components/dialog.md' },
+            { text: 'Loading 加载', link: '/components/loading.md' },
+            { text: 'Message 消息提示', link: '/components/message.md' },
+            { text: 'MessageBox 消息弹框', link: '/components/message-box.md' },
+            { text: 'Notification 通知', link: '/components/notification.md' },
             // { text: '地图坐标选择组件', link: '/components/TMap/base.md' },
           ],
         },
