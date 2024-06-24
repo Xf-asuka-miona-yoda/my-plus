@@ -1,17 +1,17 @@
 import { defineConfig } from 'vitepress'
 import { mdPlugin } from './config/plugins'
 export default defineConfig({
-  title: 'elementPlus基础组件文档',
+  title: 'elementPlus主题定制文档',
   description: '基于Element-plus基础组件江南主题定制',
   lang: 'cn-ZH',
-  base: '/',
+  base: '/subApp/uxstd/pcplus/',
   lastUpdated: true,
   themeConfig: {
     siteTitle: '基础组件文档',
     outlineTitle: '快速浏览',
     nav: [
       {
-        text: '安装指南',
+        text: '引入指南',
         link: '/components/',
       },
       { text: '基础组件', link: '/components/button.md' },
@@ -19,9 +19,9 @@ export default defineConfig({
     sidebar: {
       '/components': [
         {
-          text: '安装指南',
+          text: '引入指南',
           items: [
-            { text: '安装指南', link: '/components/' },
+            { text: '引入指南', link: '/components/' },
           ],
         },
         {
@@ -37,17 +37,17 @@ export default defineConfig({
         {
           text: 'Form 表单组件',
           items: [
-            { text: 'Autocomplete', link: '/components/autocomplete.md' },
+            { text: 'Autocomplete 自动补全输入', link: '/components/autocomplete.md' },
             { text: 'Cascader 级联选择器', link: '/components/cascader.md' },
             { text: 'Checkbox 多选框', link: '/components/checkbox.md' },
             { text: 'DatePicker 日期选择器', link: '/components/date-picker.md' },
-            { text: 'DateTimePicker', link: '/components/datetime-picker.md'},
+            { text: 'DateTimePicker 日期时间选择器', link: '/components/datetime-picker.md'},
             { text: 'Form 表单', link: '/components/form.md'},
             { text: 'Input 输入框', link: '/components/input.md'},
-            { text: 'Input Number', link: '/components/input-number.md'},
+            { text: 'Input Number 数字输入框', link: '/components/input-number.md'},
             { text: 'Radio 单选框', link: '/components/radio.md'},
             { text: 'Select 选择器', link: '/components/select.md'},
-            { text: 'Virtualized Select', link: '/components/select-v2.md'},
+            { text: 'Virtualized Select 虚拟化选择器', link: '/components/select-v2.md'},
             { text: 'Slider 滑块', link: '/components/slider.md'},
             { text: 'Switch 开关', link: '/components/switch.md'},
             { text: 'TimePicker 时间选择器', link: '/components/time-picker.md'},

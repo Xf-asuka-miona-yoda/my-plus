@@ -3,7 +3,7 @@ title: Text
 lang: zh-CN
 ---
 
-# Text
+# Text 文本
 
 文本的常见操作
 

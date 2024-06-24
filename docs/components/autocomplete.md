@@ -3,7 +3,7 @@ title: Autocomplete 自动补全输入框
 lang: zh-CN
 ---
 
-# 自动补全输入框
+# Autocomplete 自动补全输入框
 
 根据输入内容提供对应的输入建议。
 

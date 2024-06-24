@@ -15,9 +15,10 @@
   </el-row>
 </template>
 
-<style>
+<style scoped>
 .el-col {
   border-radius: 4px;
+  background-color: #ae0b2a;
 }
 
 .grid-content {

@@ -31,7 +31,7 @@
   </el-row>
 </template>
 
-<style>
+<style scoped>
 .el-row {
   margin-bottom: 20px;
 }
@@ -40,6 +40,7 @@
 }
 .el-col {
   border-radius: 4px;
+  background-color: #ae0b2a;
 }
 
 .grid-content {

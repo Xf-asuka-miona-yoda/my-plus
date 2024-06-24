@@ -27,7 +27,7 @@
   </el-row>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .el-row {
   margin-bottom: 20px;
 }
@@ -36,6 +36,7 @@
 }
 .el-col {
   border-radius: 4px;
+  background-color: #ae0b2a;
 }
 
 .grid-content {
